@@ -1,0 +1,48 @@
+nav, .offcanvas {
+    background-color: #1e293b;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.main-nft-section{
+    display: flex;
+   width: 80%;
+   height: 450px;
+}
+
+main{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/multimedia/fondo-main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-nft{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.main-nft-section .main-nft:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav > li:hover {
+        background-color: #0dcaf0;
+    }
+}

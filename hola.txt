@@ -1,0 +1,9 @@
+    <script src="/@popperjs/core/package.json"></script>
+    <script src="/js/jquery-3.6.3.js.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
