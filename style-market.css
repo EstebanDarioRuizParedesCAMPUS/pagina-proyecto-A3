@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav, .offcanvas {
+    background-color: #1e293b;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.size-photo{
+    padding-top: 10px;
+    height: 260px !important; 
+    width: 260px !important;
+    border-radius: 10px !important;
+}
+
+.card{
+    margin: 20px;
+}
+
+.search-nft{
+    margin-top: 2%;
+}
+
+.new-bg-color{
+    background-color: gray;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav > li:hover {
+        background-color: #0dcaf0;
+    }
+}
